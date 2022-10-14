@@ -9,11 +9,11 @@
 # @@Copyright        :  Copyright: (c) 2022 Jason Hempstead, Casjays Developments
 # @@Created          :  Friday, Oct 14, 2022 09:44 EDT
 # @@File             :  install.sh
-# @@Description      :  
+# @@Description      :
 # @@Changelog        :  New script
 # @@TODO             :  Better documentation
-# @@Other            :  
-# @@Resource         :  
+# @@Other            :
+# @@Resource         :
 # @@Terminal App     :  no
 # @@sudo/root        :  no
 # @@Template         :  installers/dockermgr
@@ -158,7 +158,7 @@ ADDITION_DEVICES=""
 ADDITION_DEVICES+=""
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 # Define additional docker arguments - see docker run --help
-CUSTOM_ARGUMENTS="--shm-size=$CONTAINER_SHM_SIZE "
+CUSTOM_ARGUMENTS="--shm-size=$CONTAINER_SHM_SIZE --tty "
 CUSTOM_ARGUMENTS+=""
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 # Set this to the protocol the the container will use [http]
